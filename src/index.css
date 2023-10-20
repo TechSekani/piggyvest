@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face { 
+    font-family: 'Eina01Semibold';
+    src: url('../public/einafont/Eina01-Semibold.ttf');
+}
+
+@font-face { 
+    font-family: 'Eina01Bold';
+    src: url('../public/einafont/Eina01-Bold.ttf');
+}
+
+@font-face { 
+    font-family: 'Eina01Regular';
+    src: url('../public/einafont/Eina01-Regular.ttf');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Eina01Regular';
+    background-color: #F2F7F8;
+    color: #122231;
+}
