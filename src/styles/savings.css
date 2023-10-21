@@ -1,0 +1,117 @@
+/* styling for the first card */
+.savingsCard:nth-of-type(2) .title,
+.savingsCard:nth-of-type(2) .link{
+    color: #0F60D6;
+    transition: .5s ease-in-out;
+}
+.active:nth-of-type(2),
+.savingsCard:nth-of-type(2):hover{
+    background-color: #0F60D6;
+    color: white;
+}
+
+.active:nth-of-type(2) .title,
+.active:nth-of-type(2) .link,
+.savingsCard:nth-of-type(2):hover .title,
+.savingsCard:nth-of-type(2):hover .link{
+    color: white;
+}
+
+/* second card */
+.savingsCard:nth-of-type(3) .title,
+.savingsCard:nth-of-type(3) .link{
+    color: #2295F2;
+    transition: .5s ease-in-out;
+}
+.active:nth-of-type(3),
+.savingsCard:nth-of-type(3):hover{
+    background-color: #2295F2;
+    color: white;
+}
+
+.active:nth-of-type(3) .title,
+.active:nth-of-type(3) .link,
+.savingsCard:nth-of-type(3):hover .title,
+.savingsCard:nth-of-type(3):hover .link{
+    color: white;
+}
+
+/* third card */
+.savingsCard:nth-of-type(4) .title,
+.savingsCard:nth-of-type(4) .link{
+    color: #39C277;
+    transition: .5s ease-in-out;
+}
+.active:nth-of-type(4),
+.savingsCard:nth-of-type(4):hover{
+    background-color: #39C277;
+    color: white;
+}
+
+.active:nth-of-type(4) .title,
+.active:nth-of-type(4) .link,
+.savingsCard:nth-of-type(4):hover .title,
+.savingsCard:nth-of-type(4):hover .link{
+    color: white;
+}
+
+/* fourth card */
+.savingsCard:nth-of-type(5) .title,
+.savingsCard:nth-of-type(5) .link{
+    color: #E5489B;
+    transition: .5s ease-in-out;
+}
+.active:nth-of-type(5),
+.savingsCard:nth-of-type(5):hover{
+    background-color: #E5489B;
+    color: white;
+}
+
+.active:nth-of-type(5) .title,
+.active:nth-of-type(5) .link,
+.savingsCard:nth-of-type(5):hover .title,
+.savingsCard:nth-of-type(5):hover .link{
+    color: white;
+}
+
+/* fifth card */
+.savingsCard:nth-of-type(6) .title,
+.savingsCard:nth-of-type(6) .link{
+    color: #0C1825;
+    transition: .5s ease-in-out;
+}
+.active:nth-of-type(6),
+.savingsCard:nth-of-type(6):hover{
+    background-color: #0C1825;
+    color: white;
+}
+
+.active:nth-of-type(6) .title,
+.active:nth-of-type(6) .link,
+.savingsCard:nth-of-type(6):hover .title,
+.savingsCard:nth-of-type(6):hover .link{
+    color: white;
+}
+
+.savingsCard .link:hover::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    width: 100%;
+    height: 6px;
+    background-color: rgba(253, 253, 253, 0.781);
+}
+
+.savingsCard > img,
+.active > img{
+    transform: scale(0);
+    translate: 120% 100%;
+    transition: .7s ease-in-out;
+}
+
+.savingsCard:hover img,
+.active img {
+    transform: scale(1);
+    translate: 0 0 ;
+}

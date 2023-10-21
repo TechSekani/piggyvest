@@ -10,6 +10,7 @@ import savings02 from './safelock1.webp'
 import savings03 from './targetsavings1.webp'
 import savings04 from './flexnaira1.webp'
 import savings05 from './flexdollar1.webp'
+import investment1 from './investment1.webp'
 
 export {
     logo,
@@ -23,6 +24,6 @@ export {
     savings02,
     savings03,
     savings04,
-    savings05
-
+    savings05,
+    investment1
 }

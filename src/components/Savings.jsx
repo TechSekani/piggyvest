@@ -1,6 +1,5 @@
 import React from "react";
 import { Icon } from "@iconify/react";
-
 import {
   savings01,
   savings02,
@@ -8,6 +7,8 @@ import {
   savings04,
   savings05,
 } from "../assets/images";
+import "../styles/savings.css";
+
 const DATA = [
   {
     id: 1,
@@ -15,7 +16,6 @@ const DATA = [
     text: "Build a dedicated savings faster on your terms, automatically or manually.",
     linkText: "Piggybank",
     img: savings01,
-    color: '#0F60D6'
   },
   {
     id: 2,
@@ -23,7 +23,6 @@ const DATA = [
     text: "Lock money away for a fixed duration without having access to it until maturity. It's like having a custom fixed deposit.",
     linkText: "Safelock",
     img: savings02,
-    color: '#2295F2',
   },
   {
     id: 3,
@@ -31,7 +30,6 @@ const DATA = [
     text: "Reach all your savings goals faster. Save towards multiple goals on your own or with a group.",
     linkText: "Target Savings",
     img: savings03,
-    color: '#39C277'
   },
   {
     id: 4,
@@ -39,7 +37,7 @@ const DATA = [
     text: "Save, transfer, manage, organise, and withdraw your money at any time.",
     linkText: "Flex Naira",
     img: savings04,
-    color: '#E5489B'
+    color: "#E5489B",
   },
   {
     id: 5,
@@ -47,7 +45,6 @@ const DATA = [
     text: "Save and grow your money in foreign currencies such as Dollars.",
     linkText: "Flex Dollar",
     img: savings05,
-    color: '#0C1825'
   },
 ];
 
@@ -66,16 +63,18 @@ const Savings = () => {
         return (
           <article
             key={id}
-            className=" relative w-[48.2%] h-[60vh] px-10 pt-10 pb-7 bg-white rounded-3xl flex flex-col justify-between"
+            className="savingsCard overflow-hidden relative w-[48.2%] h-[60vh] px-10 pt-10 pb-7 bg-white rounded-3xl flex flex-col justify-between"
           >
             <div className="">
-              <h3 className={` text-[${color}] text-4xl font-[Eina01Bold]`}>{title}</h3>
+              <h3 className={`title text-4xl font-[Eina01Bold]`}>
+                {title}
+              </h3>
               <p className=" text-xl w-[65%] mt-4">{text}</p>
             </div>
 
-            <div className=" text-[color] flex gap-1 font-[Eina01Semibold]">
+            <div className="link relative w-fit flex gap-1 font-[Eina01Semibold]">
               <Icon icon="fluent:arrow-turn-down-right-20-filled" width={23} />
-              <span className=" cursor-pointer duration-100 hover:border-b-2 border-gray-400">
+              <span className=" cursor-pointer duration-100 ">
                 {linkText}
               </span>
             </div>
