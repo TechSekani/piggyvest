@@ -93,16 +93,6 @@
     color: white;
 }
 
-.savingsCard .link:hover::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -3px;
-    width: 100%;
-    height: 6px;
-    background-color: rgba(253, 253, 253, 0.781);
-}
-
 .savingsCard > img,
 .active > img{
     transform: scale(0);

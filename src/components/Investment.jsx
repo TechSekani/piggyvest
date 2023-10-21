@@ -4,25 +4,33 @@ import { Icon } from "@iconify/react";
 
 const Investment = () => {
   return (
-    <section className=" px-[90px] py-20">
-      <h2>Diverse ways to Invest</h2>
-      <p>Grow your money and invest for your future confidently.</p>
-      <div className=" flex bg-[purple] px-12 pt-12 rounded-3xl">
-        <div className="">
-          <h3>Earn Up to 25% returns</h3>
-          <p>
-            Invest securely and confidently on the go. Grow your money
-            confidently by investing in pre-vetted investment opportunities.zz
-          </p>
+    <section className=" px-[90px] bg-white py-[160px]">
+      <h2 className=" text-5xl text-center font-[Eina01Bold]">
+        Diverse ways to Invest
+      </h2>
+      <p className=" text-2xl text-center mt-4 mb-16">
+        Grow your money and invest for your future confidently.
+      </p>
+      <div className=" flex bg-[#7913E5] px-16 pt-16 rounded-3xl">
+        <div className=" flex flex-col justify-between pb-10">
+          <div className="">
+            <h3 className=" text-4xl font-[Eina01Bold] text-white">
+              Earn Up to 25% returns
+            </h3>
+            <p className=" text-[#fed6f1] text-xl w-2/4 mt-8">
+              Invest securely and confidently on the go. Grow your money
+              confidently by investing in pre-vetted investment opportunities.zz
+            </p>
+          </div>
 
-          <div className=" text-[color] flex gap-1 font-[Eina01Semibold]">
-            <Icon icon="fluent:arrow-turn-down-right-20-filled" width={23} />
-            <span className=" cursor-pointer duration-100 hover:border-b-2 border-gray-400">
+          <div className="link w-fit text-[white] flex gap-1 font-[Eina01Semibold]">
+            <Icon icon="fluent:arrow-turn-down-right-20-filled" width={23} height={25} />
+            <span className=" w-fit relative cursor-pointer duration-100 ">
               Learn about investments
             </span>
           </div>
         </div>
-        <img src={investment1} className='w-[35%]' alt="" />
+        <img src={investment1} className="w-[40%]" alt="" />
       </div>
     </section>
   );

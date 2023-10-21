@@ -14,9 +14,9 @@ const Security = () => {
           secured by 256 bits SSL security encryption to ensure that your
           information is comepletely protected from fraud.
         </p>
-        <div className=" flex gap-1 font-[Eina01Bold]">
+        <div className="seclink link w-fit flex gap-1 font-[Eina01Bold]">
         <Icon icon="fluent:arrow-turn-down-right-20-filled" width={23}/>
-        <span className=" cursor-pointer duration-100 hover:border-b-2 border-gray-400">More on our security measures</span>
+        <span className=" cursor-pointer relative duration-100">More on our security measures</span>
         </div>
       </div>
     </section>

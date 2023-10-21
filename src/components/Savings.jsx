@@ -50,7 +50,7 @@ const DATA = [
 
 const Savings = () => {
   return (
-    <section className=" px-[90px] py-5 flex flex-wrap justify-between gap-10">
+    <section className=" px-[90px] py-5 pb-24 flex flex-wrap justify-between gap-10">
       <article className=" w-[40%] p-10 text-center flex flex-col items-center justify-center ">
         <h2 className=" font-[Eina01Bold] text-5xl leading-tight">
           5 ways to build your savings
@@ -72,9 +72,9 @@ const Savings = () => {
               <p className=" text-xl w-[65%] mt-4">{text}</p>
             </div>
 
-            <div className="link relative w-fit flex gap-1 font-[Eina01Semibold]">
+            <div className="link w-fit flex gap-1 font-[Eina01Semibold]">
               <Icon icon="fluent:arrow-turn-down-right-20-filled" width={23} />
-              <span className=" cursor-pointer duration-100 ">
+              <span className=" cursor-pointer relative duration-100 ">
                 {linkText}
               </span>
             </div>
