@@ -19,14 +19,14 @@ const Navbar = () => {
 
   return (
     <nav
-      className={` overflow-x-hidden z-30 font-[Eina01Semibold] fixed top-0 w-full px-8 md:px-[90px] py-5 flex items-center justify-between md:justify-normal duration-700 ${
+      className={` overflow-x-hidden z-30 font-[Eina01Semibold] fixed top-0 w-full px-4 md:px-[90px] py-5 flex items-center justify-between md:justify-normal duration-700 ${
         colorChange ? " shadow bg-white" : "bg-[#F2F7F8]"
       }`}
     >
       <img
         src={logo}
         alt="PiggyVest"
-        className=" z-50 w-[180px] md:h-[35px] mr-[50px]"
+        className=" z-50 w-2/4 md:w-[180px] md:h-[35px] mr-[50px]"
       />
       <div
         className={`${
