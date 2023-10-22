@@ -12,7 +12,7 @@ import 'animate.css';
 
 const Hero = () => {
   return (
-    <section className=" mt-[130px] md:mt-[90px] px-8 md:px-[90px] md:flex justify-between items-center md:h-[80vh]">
+    <section className=" mt-[130px] md:mt-[90px] px-4 md:px-[90px] md:flex justify-between items-center md:h-[80vh]">
       <article className="md:w-[35%] flex flex-col gap-4 md:gap-7 text-center md:text-start">
         <h2 className=" font-[Eina01Bold] text-4xl md:text-5xl leading-[1.2] animate__animated animate__slideInUp">
           The Better Way to Save & Invest
