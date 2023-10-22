@@ -17,6 +17,19 @@
     src: url('../public/einafont/Eina01-Regular.ttf');
 }
 
+:root {
+    --animate-delay: 0.2s;
+}
+
+.imgs{
+    --animate-duration: 10s;
+}
+
+.imgs img{
+    --animate-duration: 3s;
+
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -27,6 +40,8 @@ body{
     font-family: 'Eina01Regular';
     background-color: #F2F7F8;
     color: #122231;
+    overflow-x: hidden;
+    position: relative;
 }
 
 

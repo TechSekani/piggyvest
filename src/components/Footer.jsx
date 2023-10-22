@@ -4,13 +4,13 @@ import { Icon } from "@iconify/react";
 
 const Footer = () => {
   return (
-    <footer className=" bg-white py-[70px] px-[90px]">
-      <div className=" flex gap-14 text-[14px] border-b pb-14">
-        <div className=" flex flex-col gap-6 items-center">
+    <footer className=" bg-white py-[100px] px-6 md:px-[90px]">
+      <div className=" flex flex-wrap gap-14 text-[15px] border-b pb-14">
+        <div className=" flex flex-col gap-6 md:items-center">
           <img src={logo} alt="piggyvest" className=" w-[60%]" />
           <img src={compliance} alt="" className=" w-[40%]" />
         </div>
-        <div className=" flex flex-col gap-2">
+        <div className=" w-2/5 md:w-fit flex flex-col gap-2">
           <h3 className=" font-[Eina01Bold]">Products</h3>
           <h3>Piggybank</h3>
           <h3>Invest</h3>
@@ -31,8 +31,8 @@ const Footer = () => {
           <h3>Privacy</h3>
           <h3>Security</h3>
         </div>
-        <div className=" flex flex-col gap-4 text-right ml-auto">
-          <div className=" flex gap-3 w-fit ml-auto mb-3">
+        <div className=" flex flex-col gap-4 md:text-right md:ml-auto">
+          <div className=" flex gap-3 w-fit md:ml-auto mb-3">
             <Icon icon="typcn:social-facebook" width={22} />
             <Icon icon="simple-line-icons:social-instagram" width={22} />
             <Icon icon="mingcute:social-x-line" width={22} />
