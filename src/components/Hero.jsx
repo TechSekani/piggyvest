@@ -12,7 +12,7 @@ import 'animate.css';
 
 const Hero = () => {
   return (
-    <section className=" mt-[130px] md:mt-[90px] px-8 md:px-[90px] md:flex justify-between items-center md:h-[80vh]">
+    <section className=" mt-[130px] md:mt-[90px] px-6 md:px-[90px] md:flex justify-between items-center md:h-[80vh]">
       <article className="md:w-[35%] flex flex-col gap-4 md:gap-7 text-center md:text-start">
         <h2 className=" font-[Eina01Bold] text-4xl md:text-5xl leading-[1.2] animate__animated animate__slideInUp">
           The Better Way to Save & Invest
@@ -21,7 +21,7 @@ const Hero = () => {
           Piggyvest helps over 4 million customers achieve their financial goals
           by helping them save and invest with ease.
         </p>
-        <div className=" mt-3 md:mt-0 flex justify-between md:justify-normal md:gap-4">
+        <div className=" mt-3 md:mt-0 flex justify-center md:justify-normal gap-4 md:gap-4">
           <Button text={"Get on iPhone"} style={"bg-[#0C1825] text-white text-[15px]"} />
           <Button text={"Get on Android"} style={"bg-[#0C1825] text-white text-[15px]"} />
         </div>
