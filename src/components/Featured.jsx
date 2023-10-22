@@ -22,7 +22,7 @@ const Featured = () => {
         transition={{ delay: 0.8, duration: 0.5 }}
         className="flex flex-wrap gap-6 md:gap-16 justify-around md:justify-start items-center mt-10"
       >
-        <img src={techpoint} alt="techpoint" className="h-9" />
+        <img src={techpoint} alt="techpoint" className="h-8" />
         <img src={guardian} alt="theguardian" className=" h-6" />
         <img src={techcrunch} alt="techcrunch" className=" h-8" />
         <img src={pymts} alt="pymnts" className=" h-10" />
