@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={` overflow-x-hidden z-30 font-[Eina01Semibold] fixed top-0 w-full px-4 md:px-[90px] py-5 flex items-center justify-between md:justify-normal duration-700 ${
+      className={` overflow-x-hidden z-30 fixed top-0 w-full px-4 md:px-[90px] py-5 flex items-center justify-between md:justify-normal duration-700 ${
         colorChange ? " shadow bg-white" : "bg-[#F2F7F8]"
       }`}
     >
