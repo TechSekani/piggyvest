@@ -24,8 +24,8 @@ const Hero = () => {
           by helping them save and invest with ease.
         </p>
         <div className=" mt-3 md:mt-0 flex justify-center md:justify-normal gap-4 md:gap-4">
-          <Button text={"Get on iPhone"} style={"bg-[#0C1825] text-white text-[15px]"} />
-          <Button text={"Get on Android"} style={"bg-[#0C1825] text-white text-[15px]"} />
+          <Button text={"Get on iPhone"} style={"bg-[#0C1825] text-white text-sm"} />
+          <Button text={"Get on Android"} style={"bg-[#0C1825] text-white text-sm"} />
         </div>
       </article>
       <div className="imgs relative mt-10 md:mt-0 md:w-2/4 flex items-center justify-end animate__animated animate__shakeY animate__slower animate__infinite">
